@@ -1,0 +1,102 @@
+{
+  "heroSlides": [
+    {
+      "title": "About Kavis",
+      "description": "Kavis Pharma is established as the United States footprint for Extrovis AG. At Kavis, we leverage a talented workforce and differentiated manufacturing capabilities at our Sugar Land, Texas plant to execute our own pipeline, along with engaging strategic partners to bring high quality pharmaceutical products to market.",
+      "image": "https://kavispharma.com/wp-content/uploads/slider/cache/21a0aad3909c3b745f08101ec8a3862a/print1-1.png"
+    },
+    {
+      "title": "Our People",
+      "description": "At Kavis, we share a common goal to better human standards living by producing high quality pharmaceuticals for our company and our strategic partners. We are just like you. We have families like you do. We need trusted and reliable healthcare just like you. Which is why, we are a resolute team working tirelessly to deliver answers for better, healthier living. Our unwavering dedication to our people, our products, and our partners makes us unique.",
+      "image": "https://kavispharma.com/wp-content/uploads/slider/cache/112f5a5fce9f0424dcfbce881d9f86f0/print2.png"
+    },
+    {
+      "title": "Our Footprint",
+      "description": "Kavis Pharma is located in Sugar Land, Texas representing Extrovis' flagship US location producing products primarily for North American markets for various international companies.",
+      "image": "https://kavispharma.com/wp-content/uploads/slider/cache/87e9c9e9c08ae834dc23a60d7fabe8ab/print3.png"
+    }
+  ],
+  "intro": {
+    "title": "About Us",
+    "description": "Based in Sugar Land, Texas, Kavis Pharma specializes in pharmaceutical manufacturing under Extrovis, our parent Company. Our plant features a rich legacy that dates back to 1976, and features nearly 50 years of experience in the manufacture of semi-solid and liquid products, while maintaining a stellar compliance history. Leveraging our vast industry experience, Kavis Pharma connects the dots between drug development and commercialization. Everything we do and every investment we make is grounded in our passion for delivering safe, predictable, and efficient results for our products and our partners."
+  },
+  "prideBanner": {
+    "text": "We Pride Ourselves On Unwavering Excellence And Steadfast Improvement Through The Years.",
+    "backgroundImage": "https://readdy.ai/api/search-image?query=Pharmaceutical%20quality%20control%20laboratory%20with%20scientists%20wearing%20lab%20coats%20and%20safety%20goggles%20working%20together%2C%20modern%20clean%20facility%20with%20blue%20lighting%2C%20professional%20teamwork%20in%20healthcare%20manufacturing%20environment%2C%20high%20detail%20editorial%20photography&width=1600&height=500&seq=pride-banner-bg&orientation=landscape"
+  },
+  "cards": [
+    {
+      "image": "https://kavispharma.com/wp-content/uploads/2024/06/Untitled-design-28.png",
+      "title": "Sound Business Structure",
+      "description": "In tandem, Extrovis R&D structure and the Kavis commercial scale-up experience promote a robust platform for introducing new products to market, while also providing product lifecycle oversight. Factoring in Kavis' proven Quality and Safety programs, the business is prepared to grow and adapt with the industry."
+    },
+    {
+      "image": "https://kavispharma.com/wp-content/uploads/2024/06/Untitled-design-19.png",
+      "title": "Talent Engagement & Retention",
+      "description": "Kavis believes in leveraging effective communication, fostering growth opportunities, and providing superb benefits to attract and retain high caliber talent."
+    },
+    {
+      "image": "https://kavispharma.com/wp-content/uploads/2024/06/Untitled-design-28.png",
+      "title": "Flawless Execution",
+      "description": "Kavis adopts a proactive approach in understanding all areas impacted by the business transition, and executing plans effectively."
+    }
+  ],
+  "howWeDoIt": {
+    "title": "How We Do It",
+    "description": "For nearly a half century, our team has specialized in manufacturing non-sterile pharmaceutical compounds, including semi-solid and liquid pharmaceutical products in various forms. Moreover, our ability to produce highly potent compounds (including cytotoxics and hormones) with robust engineering controls sets us apart from most traditional non-sterile manufacturers.",
+    "qualityAssurance": {
+      "title": "Quality Assurance",
+      "description": "Our dedication to quality assurance ensures a high level of reliability. We continuously enhance our quality management system to deliver high-quality products that meet customer demand. Through the implementation of advanced testing, analysis devices and the establishment of effective control systems, our facility ensures strict quality control and state-of-the-art products. We have established reliable quality control measures for raw materials, intermediate products, and finished goods, enabling rigorous quality evaluation.",
+      "image": "https://kavispharma.com/wp-content/uploads/2024/06/quality-assurance.png"
+    }
+  },
+  "technologies": {
+    "title": "Our Technologies",
+    "description": "For nearly a half century, our team has specialized in manufacturing non-sterile pharmaceutical compounds, including semi-solid and liquid pharmaceutical products in various forms. Moreover, our ability to produce highly potent compounds (including cytotoxics and hormones) with robust engineering controls sets us apart from most traditional non-sterile manufacturers.",
+    "cards": [
+      {
+        "title": "Product Capabilities",
+        "backText": "At Kavis, we develop products that cater to topical and oral routes of administration, with specialized capabilities that include hormones, cytotoxins, and high alcohol compounds.",
+        "image": "https://kavispharma.com/wp-content/uploads/slider/cache/21a0aad3909c3b745f08101ec8a3862a/print1-1.png"
+      },
+      {
+        "title": "Packing Capabilities",
+        "backText": "The value of our high quality packaging capabilities enhances the efficacy and lifespan of our products, and in the interim offers more cost-effective solutions.\nMetal Tubes\nLaminate Tubes\nJars\nBottles\nVials",
+        "image": "https://kavispharma.com/wp-content/uploads/slider/cache/112f5a5fce9f0424dcfbce881d9f86f0/print2.png"
+      },
+      {
+        "title": "Bulk Compounding Capabilities",
+        "backText": "Creams\nLotions\nGels\nOintments\nSolutions\nSuspensions",
+        "image": "https://kavispharma.com/wp-content/uploads/slider/cache/87e9c9e9c08ae834dc23a60d7fabe8ab/print3.png"
+      },
+      {
+        "title": "Service Capabilities",
+        "backText": "Our comprehensive range of services are designed to cater to your different requirements with utmost efficiency and expertise.\n\nAnalytical Method Validation\nClinical Trial Material Manufacturing\nStability Studies\nProcess Validation\nSerialisation (DSCSA)\nProgram & Project Management\nSuspensions",
+        "image": "https://kavispharma.com/wp-content/uploads/slider/cache/2e67d0658b8ee6f84d1d6815e72285e6/banner-01.png"
+      }
+    ]
+  },
+  "team": {
+    "title": "Our Team",
+    "description": "Our legacy is our passion. Our discoveries and pharma products have helped make meaningful differences to healthcare and people's lives.\nOur team helps inform our purpose and progress.",
+    "members": [
+      {
+        "image": "https://kavispharma.com/wp-content/uploads/2024/06/janos.png",
+        "name": "Dr. Janos Vaczi",
+        "role": "Managing Director - Extrovis",
+        "description": "Janos brings with him a well-rounded set of skills in medical, sales, business development, finance, and administration which combined are instrumental for Extrovis' commercial and partnership strategy and support the definition of the company's portfolio and execution of the development projects. Before joining Extrovis in Switzerland he held various general management and P&L responsibilities at Amneal based in Switzerland, Alliance Healthcare (now part of Walgreens Boots Alliance), Ratiopharm (now part of the Teva Group), and Sanofi. Janos has a Summa Cum Laude degree from Szent-Györgyi Albert Medical University in Szeged, Hungary."
+      },
+      {
+        "image": "https://kavispharma.com/wp-content/uploads/2025/04/danny-150x150-1.jpg",
+        "name": "Sheila Bonner",
+        "role": "General Manager",
+        "description": "Sheila Bonner serves as General Manager of Kavis Pharma's flagship manufacturing facility in Sugar Land, Texas. With 30 years of experience in the pharmaceutical sector she oversees all operational aspects of the facility, including regulatory compliance, manufacturing, and financial performance. Sheila has extensive experience with FDA, OSHA, and EPA compliance, lean manufacturing, change management, and continuous improvement methodologies. Sheila is committed to driving operational excellence by cultivating a culture of accountability, collaboration, and process optimization. Through her leadership, Sheila cultivates high-performing teams that consistently deliver innovative, complex products to customers that improve patient outcomes while ensuring client satisfaction."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Looking To Work With Our Team Of Experts?",
+    "buttonText": "Know More",
+    "buttonLink": "/about"
+  }
+}

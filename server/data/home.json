@@ -1,0 +1,57 @@
+{
+  "heroSlides": [
+    {
+      "tagline": "Customer-driven pharma solutions",
+      "description": "Innovative practices that develop, produce and deliver life-impacting pharma products",
+      "image": "https://kavispharma.com/wp-content/uploads/slider/cache/2e67d0658b8ee6f84d1d6815e72285e6/banner-01.png"
+    },
+    {
+      "tagline": "Life-saving innovations",
+      "description": "We believe in empowering health and global well being through rigorous science.",
+      "image": "https://kavispharma.com/wp-content/uploads/slider/cache/c8dffe325b3f16d35ae8836134db2888/new-banner-01-1.png"
+    },
+    {
+      "tagline": "Thoughtful Solutions for Our Customers",
+      "description": "We invest in high quality solutions that are constantly upgraded to build novel specialty medicines for now and tomorrow.",
+      "image": "https://kavispharma.com/wp-content/uploads/slider/cache/7ed4db47a4837af73d08092d0fd59baf/new-banner-02.png"
+    },
+    {
+      "tagline": "Your health is our responsibility",
+      "description": "Trust in our commitment to deliver innovative and life-changing pharmaceutical solutions for a brighter, healthier future.",
+      "image": "https://kavispharma.com/wp-content/uploads/slider/cache/7ac013d70fd1538563e03bdd9b3b644e/Untitled-design-9.png"
+    }
+  ],
+  "stats": [
+    { "value": 50, "suffix": "+", "label": "Years of experience" },
+    { "value": 100, "suffix": "+", "label": "Dedicated Programs" },
+    { "value": 3, "suffix": "", "label": "International Markets" },
+    { "value": 25, "suffix": "+", "label": "Leadership Experience" },
+    { "value": 100, "suffix": "%", "label": "Dedicated supply chain" }
+  ],
+  "sectionImages": {
+    "extrovisBanner": "https://kavispharma.com/wp-content/uploads/2024/06/bg.jpeg",
+    "aboutSection": "https://kavispharma.com/wp-content/uploads/2024/06/changing-the-future-one-experiment-at-a-time-1191463139-1040x1040-c-center-1024x1024.webp",
+    "qualityServices": "https://kavispharma.com/wp-content/uploads/2024/06/quality-as-a-service.jpeg",
+    "ctaHistory": "https://kavispharma.com/wp-content/uploads/2024/06/banner-01.png",
+    "workingAtKavis": "https://kavispharma.com/wp-content/uploads/2024/06/banner-01.png",
+    "research": [
+      "https://kavispharma.com/wp-content/uploads/2024/06/slider1.png",
+      "https://kavispharma.com/wp-content/uploads/2024/06/slider2.png",
+      "https://kavispharma.com/wp-content/uploads/2024/06/slider3.png"
+    ],
+    "certifications": [
+      {
+        "icon": "https://kavispharma.com/wp-content/uploads/2024/06/icon1.jpg",
+        "label": "Outstanding regulatory\ntrack history"
+      },
+      {
+        "icon": "https://kavispharma.com/wp-content/uploads/2024/06/icon2.jpg",
+        "label": "Fully Equipped\nGMP laboratory"
+      },
+      {
+        "icon": "https://kavispharma.com/wp-content/uploads/2024/06/icon3.jpg",
+        "label": "Certified by FDA and\nHealth Canada"
+      }
+    ]
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "hero": {
+    "title": "We Passionately Pursue Life-Improving Opportunities",
+    "description": "Kavis Pharma helps advance healthcare through the work our people deliver. We strive to move health forward and make life easier.",
+    "buttonText": "Know More",
+    "buttonLink": "/about",
+    "backgroundImage": "https://kavispharma.com/wp-content/uploads/slider/cache/2e67d0658b8ee6f84d1d6815e72285e6/banner-01.png"
+  },
+  "growth": {
+    "title": "Grow Your Career With Kavis Pharma",
+    "description": "We are dedicated to fostering a professional environment where you don't just have the opportunity to utilize your skills, you can grow your career by leaps and bounds.",
+    "cards": [
+      {
+        "icon": "ri-headphone-line",
+        "text": "We firmly believe that creating a supportive work environment is essential for our people to reach their full potential."
+      },
+      {
+        "icon": "ri-team-line",
+        "text": "We firmly believe that creating a supportive work environment is essential for our people to reach their full potential."
+      }
+    ]
+  },
+  "contactCta": {
+    "title": "Contact Us Here For More Opportunities And Information",
+    "subtitle": "If you need to converse more, we understand",
+    "buttonText": "CONTACT US",
+    "buttonLink": "/contact"
+  },
+  "jobBoard": {
+    "title": "Our Current Job Openings",
+    "description": "Thank you for visiting our job board. Please click on a job title to view the requirements for that particular job. You can apply directly from within the job ad.",
+    "emptyMessage": "There are no open positions at the moment. Please check back soon or contact us for future opportunities.",
+    "jobs": [
+      {
+        "id": "job-mf-002",
+        "jobCode": "KP-MFG-002",
+        "title": "Manufacturing Operator",
+        "department": "Manufacturing",
+        "employmentType": "Full-time",
+        "workMode": "On-site",
+        "location": "Sugar Land, TX",
+        "experienceLevel": "Entry",
+        "experienceYears": "1-3 years",
+        "education": "High school diploma or equivalent; technical certificate preferred",
+        "summary": "Execute batch manufacturing for topical and oral non-sterile products while following SOPs and safety standards.",
+        "responsibilities": "Operate compounding and packaging equipment per approved procedures\nComplete batch documentation accurately and in real time\nPerform line clearance and equipment cleaning\nEscalate deviations and safety concerns promptly\nMaintain a clean and organized production area",
+        "requirements": "1+ year experience in pharmaceutical or regulated manufacturing preferred\nAbility to follow written SOPs and work instructions\nWillingness to work in a cleanroom/production environment\nBasic computer skills and strong teamwork",
+        "preferredQualifications": "Experience with creams, gels, ointments, or solutions\nPrior cGMP training",
+        "benefits": "Competitive hourly pay\nShift differential where applicable\nHealth benefits and paid leave",
+        "salaryRange": "",
+        "openings": 2,
+        "applyEmail": "careers@kavispharma.com",
+        "applyUrl": "",
+        "postedDate": "2026-08-15",
+        "closingDate": "",
+        "status": "Open",
+        "isFeatured": false
+      },
+      {
+        "id": "job-qa-001",
+        "jobCode": "KP-QA-001",
+        "title": "Quality Assurance Specialist",
+        "department": "Quality Assurance",
+        "employmentType": "Full-time",
+        "workMode": "On-site",
+        "location": "Sugar Land, TX",
+        "experienceLevel": "Mid",
+        "experienceYears": "3-5 years",
+        "education": "Bachelor's degree in Chemistry, Pharmacy, or related field",
+        "summary": "Support QA systems for semi-solid and liquid pharmaceutical manufacturing, ensuring cGMP compliance and continuous improvement.",
+        "responsibilities": "Review batch records and release documentation\nSupport CAPA, deviations, and change control\nPartner with manufacturing and QC on quality investigations\nMaintain SOPs and training records\nSupport internal and regulatory audits",
+        "requirements": "3+ years QA experience in pharmaceutical manufacturing\nStrong knowledge of cGMP and FDA regulations\nExcellent documentation and attention to detail\nAbility to work cross-functionally in a regulated environment",
+        "preferredQualifications": "Experience with semi-solid or liquid dosage forms\nPrior audit support experience\nFamiliarity with TrackWise or similar QMS tools",
+        "benefits": "Competitive compensation\nHealth, dental, and vision coverage\nPaid time off and holidays\nProfessional development opportunities",
+        "salaryRange": "",
+        "openings": 1,
+        "applyEmail": "careers@kavispharma.com",
+        "applyUrl": "",
+        "postedDate": "2026-08-01",
+        "closingDate": "",
+        "status": "Open",
+        "isFeatured": true
+      }
+    ]
+  },
+  "diversity": {
+    "title": "Join Us In Shaping A Democratic And Inclusive Future.",
+    "description": "Our commitment extends to creating an inclusive workplace that values diversity. We believe in a progressive, socially-responsible, and open-minded company culture where factors such as gender, religion, political orientation, sexual preferences, and skin color do not influence your experience at Kavis."
+  },
+  "bottomImage": {
+    "imageUrl": "https://kavispharma.com/wp-content/uploads/slider/cache/7ac013d70fd1538563e03bdd9b3b644e/Untitled-design-9.png"
+  }
+}
