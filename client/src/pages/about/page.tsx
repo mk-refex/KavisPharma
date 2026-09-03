@@ -1,5 +1,4 @@
 import Navbar from '@/components/feature/Navbar';
-import Footer from '@/components/feature/Footer';
 import AboutHeroSlider from './components/AboutHeroSlider';
 import PrideBanner from './components/PrideBanner';
 import AboutIntro from './components/AboutIntro';
@@ -26,7 +25,6 @@ export default function About() {
         <TeamSection />
         <AboutCTA />
       </main>
-      <Footer />
     </div>
   );
 }

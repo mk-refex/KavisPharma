@@ -20,14 +20,14 @@ export default function AboutCards() {
   return (
     <section className="w-full py-12 md:py-16 bg-background-50">
       <div className="w-full px-4 md:px-8 lg:px-16">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-10 max-w-6xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-10 md:gap-12 max-w-6xl mx-auto">
           {cards.map((card, index) => (
             <div key={index} className="flex flex-col items-center text-center">
-              <div className="w-36 h-36 md:w-44 md:h-44 mb-6 overflow-hidden rounded-full">
+              <div className="mb-6 h-[18.63rem] w-[18.63rem] overflow-hidden rounded-full sm:h-[21.3rem] sm:w-[21.3rem] md:h-[23.96rem] md:w-[23.96rem]">
                 <img
                   src={resolveImageUrl(card.image)}
                   alt={card.title}
-                  className="w-full h-full object-cover"
+                  className="h-full w-full object-cover"
                 />
               </div>
               <h3 className="font-heading text-base md:text-lg font-semibold text-primary-500 mb-3">

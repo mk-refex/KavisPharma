@@ -48,18 +48,18 @@
     --accent-900: 0.36 0.08 195;
     --accent-950: 0.28 0.06 195;
 
-    /* Secondary: dark navy #0A2E57 for footer, dark backgrounds */
-    --secondary-50: 0.95 0.02 255;
-    --secondary-100: 0.90 0.04 255;
-    --secondary-200: 0.82 0.06 255;
-    --secondary-300: 0.72 0.08 255;
-    --secondary-400: 0.62 0.10 255;
-    --secondary-500: 0.30 0.10 255;
-    --secondary-600: 0.26 0.09 255;
-    --secondary-700: 0.22 0.08 255;
-    --secondary-800: 0.18 0.07 255;
-    --secondary-900: 0.14 0.06 255;
-    --secondary-950: 0.10 0.05 255;
+    /* Secondary: #0A6CA2 for footer and dark brand surfaces */
+    --secondary-50: 0.95 0.03 230;
+    --secondary-100: 0.90 0.05 230;
+    --secondary-200: 0.80 0.07 230;
+    --secondary-300: 0.68 0.09 230;
+    --secondary-400: 0.55 0.10 230;
+    --secondary-500: 0.48 0.11 230;
+    --secondary-600: 0.42 0.10 230;
+    --secondary-700: 0.36 0.09 230;
+    --secondary-800: 0.28 0.07 230;
+    --secondary-900: 0.22 0.06 230;
+    --secondary-950: 0.16 0.05 230;
 
     --foreground-50: 0.98 0.01 0;
     --foreground-100: 0.95 0.01 0;

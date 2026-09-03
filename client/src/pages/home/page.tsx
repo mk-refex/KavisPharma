@@ -1,5 +1,4 @@
 import Navbar from '@/components/feature/Navbar';
-import Footer from '@/components/feature/Footer';
 import HeroSlider from './components/HeroSlider';
 import ExtrovisBanner from './components/ExtrovisBanner';
 import ServicesSection from './components/ServicesSection';
@@ -31,7 +30,6 @@ export default function Home() {
         <ResearchSection />
         <CertificationsSection />
       </main>
-      <Footer />
     </div>
   );
 }

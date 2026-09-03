@@ -1,6 +1,5 @@
 import { useState, useEffect } from 'react';
 import Navbar from '@/components/feature/Navbar';
-import Footer from '@/components/feature/Footer';
 import { getContactContent, resolveImageUrl } from '@/services/api';
 import { defaultContactContent } from '@/data/contactDefaults';
 
@@ -230,7 +229,6 @@ export default function Contact() {
           </div>
         </section>
       </main>
-      <Footer />
     </div>
   );
 }

@@ -36,7 +36,7 @@
       "description": "Kavis believes in leveraging effective communication, fostering growth opportunities, and providing superb benefits to attract and retain high caliber talent."
     },
     {
-      "image": "https://kavispharma.com/wp-content/uploads/2024/06/Untitled-design-28.png",
+      "image": "https://kavispharma.com/wp-content/uploads/2024/06/Untitled-design-21.png",
       "title": "Flawless Execution",
       "description": "Kavis adopts a proactive approach in understanding all areas impacted by the business transition, and executing plans effectively."
     }
@@ -57,22 +57,22 @@
       {
         "title": "Product Capabilities",
         "backText": "At Kavis, we develop products that cater to topical and oral routes of administration, with specialized capabilities that include hormones, cytotoxins, and high alcohol compounds.",
-        "image": "https://kavispharma.com/wp-content/uploads/slider/cache/21a0aad3909c3b745f08101ec8a3862a/print1-1.png"
+        "image": "https://kavispharma.com/wp-content/uploads/2024/06/changing-the-future-one-experiment-at-a-time-1191463139-1040x1040-c-center.webp"
       },
       {
         "title": "Packing Capabilities",
         "backText": "The value of our high quality packaging capabilities enhances the efficacy and lifespan of our products, and in the interim offers more cost-effective solutions.\nMetal Tubes\nLaminate Tubes\nJars\nBottles\nVials",
-        "image": "https://kavispharma.com/wp-content/uploads/slider/cache/112f5a5fce9f0424dcfbce881d9f86f0/print2.png"
+        "image": "https://kavispharma.com/wp-content/uploads/2024/06/banner-01.png"
       },
       {
         "title": "Bulk Compounding Capabilities",
         "backText": "Creams\nLotions\nGels\nOintments\nSolutions\nSuspensions",
-        "image": "https://kavispharma.com/wp-content/uploads/slider/cache/87e9c9e9c08ae834dc23a60d7fabe8ab/print3.png"
+        "image": "https://kavispharma.com/wp-content/uploads/2024/06/new-banner-02.png"
       },
       {
         "title": "Service Capabilities",
-        "backText": "Our comprehensive range of services are designed to cater to your different requirements with utmost efficiency and expertise.\n\nAnalytical Method Validation\nClinical Trial Material Manufacturing\nStability Studies\nProcess Validation\nSerialisation (DSCSA)\nProgram & Project Management\nSuspensions",
-        "image": "https://kavispharma.com/wp-content/uploads/slider/cache/2e67d0658b8ee6f84d1d6815e72285e6/banner-01.png"
+        "backText": "Our comprehensive range of services are designed to cater to your different requirements with utmost efficiency and expertise.\nAnalytical Method Validation\nClinical Trial Material Manufacturing\nStability Studies\nProcess Validation\nSerialisation (DSCSA)\nProgram & Project Management\nSuspensions",
+        "image": "https://kavispharma.com/wp-content/uploads/2024/06/Untitled-design-9.png"
       }
     ]
   },
@@ -97,6 +97,7 @@
   "cta": {
     "title": "Looking To Work With Our Team Of Experts?",
     "buttonText": "Know More",
-    "buttonLink": "/about"
+    "buttonLink": "/about",
+    "image": "https://kavispharma.com/wp-content/uploads/2024/06/bg.jpeg"
   }
 }

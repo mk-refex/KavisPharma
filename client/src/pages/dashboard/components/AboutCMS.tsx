@@ -735,6 +735,16 @@ export default function AboutCMS({ showNotification }: AboutCMSProps) {
               }
             />
           </Field>
+          <ImageField
+            label="Background Image"
+            value={content.cta.image || ""}
+            onChange={(url) =>
+              setContent((prev) => ({
+                ...prev,
+                cta: { ...prev.cta, image: url },
+              }))
+            }
+          />
         </div>
       )}
     </div>

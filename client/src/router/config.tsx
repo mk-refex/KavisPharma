@@ -1,4 +1,5 @@
 import type { RouteObject } from "react-router-dom";
+import PublicLayout from "../layouts/PublicLayout";
 import NotFound from "../pages/NotFound";
 import Home from "../pages/home/page";
 import About from "../pages/about/page";
@@ -9,20 +10,29 @@ import DashboardPage from "../pages/dashboard/page";
 
 const routes: RouteObject[] = [
   {
-    path: "/",
-    element: <Home />,
-  },
-  {
-    path: "/about",
-    element: <About />,
-  },
-  {
-    path: "/career",
-    element: <Career />,
-  },
-  {
-    path: "/contact",
-    element: <Contact />,
+    element: <PublicLayout />,
+    children: [
+      {
+        path: "/",
+        element: <Home />,
+      },
+      {
+        path: "/about",
+        element: <About />,
+      },
+      {
+        path: "/career",
+        element: <Career />,
+      },
+      {
+        path: "/contact",
+        element: <Contact />,
+      },
+      {
+        path: "*",
+        element: <NotFound />,
+      },
+    ],
   },
   {
     path: "/admin-login",
@@ -31,10 +41,6 @@ const routes: RouteObject[] = [
   {
     path: "/dashboard",
     element: <DashboardPage />,
-  },
-  {
-    path: "*",
-    element: <NotFound />,
   },
 ];
 

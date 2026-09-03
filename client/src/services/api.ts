@@ -138,6 +138,7 @@ export interface AboutContent {
     title: string;
     buttonText: string;
     buttonLink: string;
+    image?: string;
   };
 }
 

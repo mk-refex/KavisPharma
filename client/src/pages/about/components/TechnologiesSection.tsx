@@ -6,55 +6,65 @@ function FlipCard({
   title,
   backText,
   image,
+  imagePosition = 'center',
 }: {
   title: string;
   backText: string;
   image: string;
+  imagePosition?: 'center' | 'right';
 }) {
   const [flipped, setFlipped] = useState(false);
 
   return (
     <div
-      className="relative w-full h-72 md:h-80 cursor-pointer group"
+      className="group relative h-[400px] w-full cursor-pointer"
       style={{ perspective: '1000px' }}
       onMouseEnter={() => setFlipped(true)}
       onMouseLeave={() => setFlipped(false)}
     >
       <div
-        className="relative w-full h-full transition-transform duration-700"
+        className="relative h-full w-full transition-transform duration-500"
         style={{
           transformStyle: 'preserve-3d',
           transform: flipped ? 'rotateY(180deg)' : 'rotateY(0deg)',
         }}
       >
+        {/* Front */}
         <div
-          className="absolute inset-0 w-full h-full rounded-lg overflow-hidden"
+          className="absolute inset-0 h-full w-full overflow-hidden"
           style={{ backfaceVisibility: 'hidden' }}
         >
           <img
             src={resolveImageUrl(image)}
             alt={title}
-            className="w-full h-full object-cover"
+            className={`h-full w-full object-cover ${
+              imagePosition === 'right' ? 'object-right' : 'object-center'
+            }`}
           />
-          <div className="absolute inset-0 bg-primary-500/70" />
-          <div className="absolute inset-0 flex items-center justify-center p-4">
-            <h3 className="font-heading text-lg md:text-xl font-semibold text-white text-center">
+          <div
+            className="absolute inset-0"
+            style={{ backgroundColor: '#DBD6D670' }}
+          />
+          <div className="absolute inset-0 flex items-center justify-center p-5">
+            <h3 className="font-heading text-center text-lg font-semibold text-black md:text-xl">
               {title}
             </h3>
           </div>
         </div>
 
+        {/* Back */}
         <div
-          className="absolute inset-0 w-full h-full rounded-lg bg-primary-600 p-5 md:p-6 flex flex-col items-center justify-center overflow-y-auto"
+          className="absolute inset-0 flex h-full w-full flex-col items-center justify-center overflow-hidden px-4 py-5"
           style={{
             backfaceVisibility: 'hidden',
             transform: 'rotateY(180deg)',
+            backgroundColor: '#0D77B2',
           }}
         >
-          <h3 className="font-heading text-base md:text-lg font-semibold text-white text-center mb-3">
+          <h3 className="font-heading mb-2 text-center text-sm font-semibold text-white md:text-base">
             {title}
           </h3>
-          <div className="text-sm text-white/90 leading-relaxed text-center whitespace-pre-line">
+          <div className="whitespace-pre-line text-center text-xs leading-snug text-white/95 md:text-[13px] md:leading-snug">
             {backText}
           </div>
         </div>
@@ -85,24 +95,25 @@ export default function TechnologiesSection() {
   }, []);
 
   return (
-    <section className="w-full py-12 md:py-16 bg-background-50">
+    <section className="w-full bg-background-50 py-12 md:py-16">
       <div className="w-full px-4 md:px-8 lg:px-16">
-        <div className="text-center max-w-4xl mx-auto mb-10 md:mb-14">
-          <h2 className="font-heading text-2xl md:text-3xl font-semibold text-foreground-950 mb-4">
+        <div className="mx-auto mb-10 max-w-4xl text-center md:mb-14">
+          <h2 className="font-heading mb-4 text-2xl font-semibold text-foreground-950 md:text-3xl">
             {technologies.title}
           </h2>
-          <p className="text-sm md:text-base text-foreground-700 leading-relaxed">
+          <p className="text-sm leading-relaxed text-foreground-700 md:text-base">
             {technologies.description}
           </p>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto">
+        <div className="mx-auto grid max-w-6xl grid-cols-1 gap-5 sm:grid-cols-2 sm:gap-6 lg:grid-cols-4">
           {cards.map((card, index) => (
             <FlipCard
               key={index}
               title={card.title}
               backText={card.backText}
               image={card.image}
+              imagePosition={index === 0 ? 'center' : 'right'}
             />
           ))}
         </div>

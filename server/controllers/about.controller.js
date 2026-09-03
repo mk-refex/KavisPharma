@@ -140,6 +140,7 @@ function normalizeAboutContent(body) {
       title: trimString(body.cta.title),
       buttonText: trimString(body.cta.buttonText),
       buttonLink: trimString(body.cta.buttonLink),
+      image: trimString(body.cta.image) || undefined,
     },
   };
 }
