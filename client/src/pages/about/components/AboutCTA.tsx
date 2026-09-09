@@ -36,12 +36,12 @@ export default function AboutCTA() {
       <div className="absolute inset-0 bg-white/65" />
 
       <div className="relative z-10 w-full px-4 md:px-8 lg:px-16 py-12 md:py-14 text-center">
-        <h2 className="font-heading text-[22px] md:text-[25px] font-medium leading-relaxed text-[#0D77B2] max-w-4xl mx-auto mb-6">
+        <h2 className="font-heading text-[22px] md:text-[25px] font-medium leading-relaxed text-primary-500 max-w-4xl mx-auto mb-6">
           {cta.title}
         </h2>
         <Link
           to={cta.buttonLink}
-          className="inline-block px-7 py-2.5 text-sm font-semibold text-white bg-[#0D77B2] hover:bg-[#0b689c] transition-colors rounded-sm whitespace-nowrap"
+          className="inline-block px-7 py-2.5 text-sm font-semibold text-white bg-primary-500 hover:bg-primary-600 transition-colors rounded-sm whitespace-nowrap"
         >
           {cta.buttonText}
         </Link>

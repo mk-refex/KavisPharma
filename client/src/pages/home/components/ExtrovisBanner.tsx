@@ -41,10 +41,7 @@ export default function ExtrovisBanner() {
         className="absolute inset-0 bg-cover bg-top bg-no-repeat"
         style={{ backgroundImage: `url('${resolveImageUrl(image)}')` }}
       />
-      <div
-        className="absolute inset-0"
-        style={{ backgroundColor: '#0D77B2', opacity: 0.77 }}
-      />
+      <div className="image-bg-overlay" />
 
       <div
         className={`relative z-10 w-full px-6 md:px-12 py-16 md:py-24 text-center transition-all duration-700 ${

@@ -54,11 +54,10 @@ function FlipCard({
 
         {/* Back */}
         <div
-          className="absolute inset-0 flex h-full w-full flex-col items-center justify-center overflow-hidden px-4 py-5"
+          className="absolute inset-0 flex h-full w-full flex-col items-center justify-center overflow-hidden bg-primary-500 px-4 py-5"
           style={{
             backfaceVisibility: 'hidden',
             transform: 'rotateY(180deg)',
-            backgroundColor: '#0D77B2',
           }}
         >
           <h3 className="font-heading mb-2 text-center text-sm font-semibold text-white md:text-base">

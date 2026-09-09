@@ -64,14 +64,14 @@ export default function ResearchSection() {
       <div className="w-full px-4 md:px-8 lg:px-16 max-w-7xl mx-auto">
         <div className="flex flex-col lg:flex-row items-center gap-8 lg:gap-16">
           <div className={`flex-1 w-full transition-all duration-700 ${visible ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-8'}`}>
-            <div className="relative w-full overflow-hidden">
+            <div className="relative w-[95%] mx-auto overflow-hidden">
               <div className="flex transition-transform duration-500 ease-in-out" style={{ transform: `translateX(-${current * 100}%)` }}>
                 {researchImages.map((img, index) => (
                   <div key={index} className="w-full flex-shrink-0">
                     <img
                       src={resolveImageUrl(img)}
                       alt={`Research facility ${index + 1}`}
-                      className="w-full h-auto object-cover max-h-[400px]"
+                      className="w-full h-auto object-contain"
                     />
                   </div>
                 ))}

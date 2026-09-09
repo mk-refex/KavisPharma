@@ -100,7 +100,7 @@ export default function HeroSlider() {
       <button
         type="button"
         onClick={prev}
-        className="group absolute left-3 sm:left-5 top-1/2 -translate-y-1/2 z-20 w-10 h-10 md:w-11 md:h-11 rounded-full bg-white shadow-md flex items-center justify-center cursor-pointer transition-colors duration-200 hover:bg-[#16b7cc]"
+        className="group absolute left-3 sm:left-5 top-1/2 -translate-y-1/2 z-20 w-10 h-10 md:w-11 md:h-11 rounded-full bg-white shadow-md flex items-center justify-center cursor-pointer transition-colors duration-200 hover:bg-primary-500"
         aria-label="Previous slide"
       >
         <svg
@@ -109,7 +109,7 @@ export default function HeroSlider() {
           viewBox="0 0 32 32"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
-          className="fill-[#0f5299] transition-colors duration-200 group-hover:fill-white"
+          className="fill-primary-500 transition-colors duration-200 group-hover:fill-white"
         >
           <path d="M11.433 15.992L22.69 5.712c.393-.39.393-1.03 0-1.42-.393-.39-1.03-.39-1.423 0l-11.98 10.94c-.21.21-.3.49-.285.76-.015.28.075.56.284.77l11.98 10.94c.393.39 1.03.39 1.424 0 .393-.4.393-1.03 0-1.42l-11.257-10.29z" fillRule="evenodd"/>
         </svg>
@@ -117,7 +117,7 @@ export default function HeroSlider() {
       <button
         type="button"
         onClick={next}
-        className="group absolute right-3 sm:right-5 top-1/2 -translate-y-1/2 z-20 w-10 h-10 md:w-11 md:h-11 rounded-full bg-white shadow-md flex items-center justify-center cursor-pointer transition-colors duration-200 hover:bg-[#16b7cc]"
+        className="group absolute right-3 sm:right-5 top-1/2 -translate-y-1/2 z-20 w-10 h-10 md:w-11 md:h-11 rounded-full bg-white shadow-md flex items-center justify-center cursor-pointer transition-colors duration-200 hover:bg-primary-500"
         aria-label="Next slide"
       >
         <svg
@@ -126,7 +126,7 @@ export default function HeroSlider() {
           viewBox="0 0 32 32"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
-          className="fill-[#0f5299] transition-colors duration-200 group-hover:fill-white"
+          className="fill-primary-500 transition-colors duration-200 group-hover:fill-white"
         >
           <path d="M10.722 4.293c-.394-.39-1.032-.39-1.427 0-.393.39-.393 1.03 0 1.42l11.283 10.28-11.283 10.29c-.393.39-.393 1.02 0 1.42.395.39 1.033.39 1.427 0l12.007-10.94c.21-.21.3-.49.284-.77.014-.27-.076-.55-.286-.76L10.72 4.293z" fillRule="evenodd"/>
         </svg>

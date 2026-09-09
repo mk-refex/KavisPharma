@@ -21,19 +21,19 @@ export default function Navbar() {
       {/* Top contact bar — white background like reference */}
       <div className="w-full bg-background-50 border-b border-background-200">
         <div className="w-full px-4 md:px-8 py-2 flex flex-col sm:flex-row items-center justify-between gap-2 text-xs sm:text-sm">
-          <span className="flex items-center gap-1.5 text-[#0f5299] min-w-0 text-center sm:text-left">
-            <i className="ri-map-pin-line text-sm text-[#0f5299] shrink-0"></i>
+          <span className="flex items-center gap-1.5 text-primary-500 min-w-0 text-center sm:text-left">
+            <i className="ri-map-pin-line text-sm text-primary-500 shrink-0"></i>
             <span className="truncate sm:whitespace-normal">12720 Dairy Ashford Rd Sugar Land, TX 77478</span>
           </span>
-          <a href="tel:+12812401000" className="flex items-center gap-1.5 text-[#0f5299] hover:opacity-80 transition-opacity whitespace-nowrap shrink-0">
-            <i className="ri-phone-line text-sm text-[#0f5299]"></i>
+          <a href="tel:+12812401000" className="flex items-center gap-1.5 text-primary-500 hover:opacity-80 transition-opacity whitespace-nowrap shrink-0">
+            <i className="ri-phone-line text-sm text-primary-500"></i>
             <span>+1(281) 240-1000</span>
           </a>
         </div>
       </div>
 
       {/* Main navigation — always solid blue like reference */}
-      <div className="w-full bg-primary-500 z-50">
+      <div className="w-full bg-[#0D77B2] z-50">
         <div className="w-full px-4 md:px-8 py-3 md:py-4 flex items-center justify-between">
           {/* Logo with text */}
           <Link to="/" className="flex flex-col items-center gap-0">

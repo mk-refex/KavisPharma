@@ -42,10 +42,7 @@ export default function WorkingAtKavisSection() {
         className="absolute inset-0 bg-cover bg-center lg:bg-[center_right] bg-no-repeat"
         style={{ backgroundImage: `url('${resolveImageUrl(image)}')` }}
       />
-      <div
-        className="absolute inset-0"
-        style={{ backgroundColor: '#0D77B2', opacity: 0.77 }}
-      />
+      <div className="image-bg-overlay" />
 
       <div
         className={`relative z-10 w-full px-6 md:px-12 lg:px-16 py-14 md:py-16 text-center transition-all duration-700 ${
@@ -57,7 +54,7 @@ export default function WorkingAtKavisSection() {
         </h2>
         <Link
           to="/about"
-          className="inline-block px-8 py-2.5 border border-white text-white text-sm font-medium rounded-sm hover:bg-white hover:text-[#0D77B2] transition-colors whitespace-nowrap"
+          className="inline-block px-8 py-2.5 border border-white text-white text-sm font-medium rounded-sm hover:bg-white hover:text-primary-500 transition-colors whitespace-nowrap"
         >
           Know more
         </Link>

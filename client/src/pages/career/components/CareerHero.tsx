@@ -22,7 +22,7 @@ export default function CareerHero() {
         backgroundPosition: 'center',
       }}
     >
-      <div className="absolute inset-0 bg-secondary-500/80" />
+      <div className="image-bg-overlay" />
       <div className="relative z-10 w-full px-4 md:px-8 lg:px-16 text-center">
         <h1 className="font-heading text-2xl md:text-4xl lg:text-5xl font-bold text-background-50 mb-4 leading-tight max-w-4xl mx-auto">
           {hero.title}

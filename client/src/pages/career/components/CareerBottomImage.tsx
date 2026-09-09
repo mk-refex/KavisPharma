@@ -26,7 +26,7 @@ export default function CareerBottomImage() {
         backgroundPosition: 'center',
       }}
     >
-      <div className="absolute inset-0 bg-secondary-500/40" />
+      <div className="image-bg-overlay" />
     </section>
   );
 }

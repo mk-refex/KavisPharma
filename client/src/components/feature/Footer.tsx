@@ -89,7 +89,7 @@ export default function Footer() {
       </div>
 
       {/* Copyright bar */}
-      <div className="w-full bg-[#085a88] px-4 md:px-10 lg:px-16 py-4">
+      <div className="w-full bg-[#0D77B2] px-4 md:px-10 lg:px-16 py-4">
         <div className="text-center text-xs md:text-sm text-white">
           Copyright Kavis Pharma. All Right Reserved
         </div>
@@ -98,7 +98,7 @@ export default function Footer() {
       {/* Scroll to top — square, matches live site */}
       <button
         onClick={scrollToTop}
-        className={`fixed bottom-5 right-5 z-50 flex h-10 w-10 items-center justify-center bg-[#064a70] text-white shadow-md hover:bg-[#053d5c] transition-all duration-300 cursor-pointer ${
+        className={`fixed bottom-5 right-5 z-50 flex h-10 w-10 items-center justify-center bg-primary-700 text-white shadow-md hover:bg-primary-800 transition-all duration-300 cursor-pointer ${
           showScrollTop
             ? 'opacity-100 translate-y-0'
             : 'opacity-0 translate-y-4 pointer-events-none'
