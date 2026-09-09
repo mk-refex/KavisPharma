@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import { scrollPageToTop } from './ScrollToTop';
 
 const quickLinks = [
   { to: '/', label: 'Home' },
@@ -20,7 +21,7 @@ export default function Footer() {
   }, []);
 
   const scrollToTop = () => {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+    scrollPageToTop('smooth');
   };
 
   return (
@@ -52,6 +53,7 @@ export default function Footer() {
                 <li key={link.to}>
                   <Link
                     to={link.to}
+                    onClick={() => scrollPageToTop('smooth')}
                     className="inline-flex items-center gap-2.5 text-sm text-white hover:opacity-80 transition-opacity"
                   >
                     <span className="flex h-5 w-5 shrink-0 items-center justify-center rounded-full border border-white/90">

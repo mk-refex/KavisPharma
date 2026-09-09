@@ -56,7 +56,7 @@ export const defaultCareerContent: CareerContent = {
     buttonText: "Know More",
     buttonLink: "/about",
     backgroundImage:
-      "https://kavispharma.com/wp-content/uploads/slider/cache/2e67d0658b8ee6f84d1d6815e72285e6/banner-01.png",
+      "https://kavispharma.com/wp-content/uploads/2024/06/bg.jpeg",
   },
   growth: {
     title: "Grow Your Career With Kavis Pharma",
@@ -157,6 +157,6 @@ export const defaultCareerContent: CareerContent = {
   },
   bottomImage: {
     imageUrl:
-      "https://kavispharma.com/wp-content/uploads/slider/cache/7ac013d70fd1538563e03bdd9b3b644e/Untitled-design-9.png",
+      "https://kavispharma.com/wp-content/uploads/2024/06/career-bg.jpeg",
   },
 };
